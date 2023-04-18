@@ -22,7 +22,28 @@ namespace VarsAndData
 
             // ToDo: Declare an array of values
 
-            
+            int[] vals = new int[5];
+            string[] strs = {"one", "two", "three"};
+
+            // ToDo: Print the values using a Formatting String
+            Console.WriteLine("{0},{1},{2},{3},{4},{5},{6},{7}",i,c,b,str,f,d,x,z);
+
+            // ToDo: "null" means "no value"
+            object obj = null;
+            // Console.WriteLine(obj);
+
+            // ToDo: Implicit conversion between types
+
+            long bignum;
+            bignum = i;
+
+            // ToDo: Explicit conversions
+
+            float i_to_f = (float)i;
+            Console.WriteLine("{0}",i_to_f);
+
+            int f_to_i = (int)f;
+            Console.WriteLine("{0}", f_to_i);
 
         }
     }
